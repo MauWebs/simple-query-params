@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+
 from .base import *
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -94,7 +95,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
@@ -132,11 +132,9 @@ REST_FRAMEWORK = {
 
 # ------------------------------ COSR HEADERS ------------------------------ #
 
-ALLOWED_HOSTS = ['*']
+CORS_ALLOW_ALL_ORIGINS = True
 
-CORS_ALLOWED_ORIGINS = ['*']
-
-CORS_ORIGIN_WHITELIST = ['*']
+CORS_ORIGIN_WHITELIST = []
 
 CORS_ALLOW_METHODS = (
     "DELETE",
