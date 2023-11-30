@@ -144,3 +144,19 @@ CORS_ALLOW_METHODS = (
     "POST",
     "PUT",
 )
+
+# ---------------------------- PROJECT RUNSERVER ---------------------------- #
+
+"""
+
+# LOCAL: 
+
+    'project.settings.local'
+
+# PRODUCTION:
+
+    'project.production' 
+
+"""
+
+PROJECT_RUN = 'project.settings.local'
