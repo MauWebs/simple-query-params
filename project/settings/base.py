@@ -159,4 +159,4 @@ CORS_ALLOW_METHODS = (
 
 """
 
-PROJECT_RUN = 'project.settings.local'
+PROJECT_RUN = 'project.production' 
